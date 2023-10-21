@@ -1,0 +1,39 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: rgb(173, 172, 172);
+}
+
+.inputs{
+  margin-top: 10px;
+  background-color: gainsboro;
+  padding: 10px 10px;
+}
+
+.inputs input{
+  height: 100%;
+  border: none;
+  outline: none;
+  padding: 5px;
+}
+.inputs input::placeholder{
+  color: rgb(214, 214, 214);
+}
+
+button{
+  height: 100%;
+  cursor: pointer;
+  border: none;
+  background-color: rgb(4, 4, 245);
+  padding: 5px;
+}
